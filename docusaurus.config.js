@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'NightFall',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -26,7 +26,7 @@ module.exports = {
       style: 'dark',
       links: [
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nightfall.`,
     },
   },
   presets: [
@@ -37,13 +37,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Karlend/nightfall-docs/edit/main/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
