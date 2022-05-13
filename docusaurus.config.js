@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Nightfall",
   tagline: "Nightfall wiki",
-  url: "https://wiki.nikiv.dev",
+  url: "https://nightfall.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
