@@ -3,13 +3,7 @@ slug: /lua/events
 title: Events
 ---
 
-# Events
-
-{% hint style="info" %}
-Lua events
-{% endhint %}
-
-### Events:
+## Events:
 
 ### `on_player_join`
 
