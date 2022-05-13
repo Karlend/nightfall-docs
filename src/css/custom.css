@@ -78,3 +78,7 @@ table td {
   padding: 10px;
   text-align: left;
 }
+
+pre code {
+  background-color: var(--ifm-code-background);
+}
