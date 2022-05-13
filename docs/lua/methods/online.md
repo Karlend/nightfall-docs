@@ -30,6 +30,42 @@ Returned values:
 
 * `online.get_name(int pid)`
 
+### `online.get_rockstar_id`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | int  |
+
+#### Returned values:
+
+| Name       | Type |
+| ---------- | ---- |
+| Player RID | int  |
+
+#### Methods:
+
+* `online.get_rockstar_id(int pid)`
+
+### `online.get_ip`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | int  |
+
+#### Returned values:
+
+| Name      | Type   |
+| --------- | ------ |
+| Player IP | string |
+
+#### Methods:
+
+* `online.get_ip(int pid)`
+
 ### `online.send_script_event`
 
 #### Parameters:
