@@ -41,8 +41,7 @@ const config = {
         blog: false,
         theme: {
           customCss: [
-            require.resolve("./src/css/_shared.scss"),
-            require.resolve("./src/css/custom.scss"),
+            require.resolve("./src/css/custom.css"),
           ],
           additionalLanguages: [
             'java',
