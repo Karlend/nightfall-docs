@@ -1,10 +1,4 @@
-# ui
-
-{% hint style="info" %}
-Workspace for ui
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `ui.add_main_submenu`
 

@@ -1,10 +1,4 @@
-# online
-
-{% hint style="info" %}
-Workspace for online
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `online.get_selected_player`
 

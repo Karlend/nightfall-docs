@@ -1,10 +1,4 @@
-# online
-
-{% hint style="info" %}
-Workspace for memory
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `memory.malloc`
 

@@ -1,10 +1,4 @@
-# globals
-
-{% hint style="info" %}
-Workspace for globals
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `globals.at`
 

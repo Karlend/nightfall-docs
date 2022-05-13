@@ -1,10 +1,4 @@
-# ui
-
-{% hint style="info" %}
-Workspace for utils
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `utils.set_bit`
 

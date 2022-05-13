@@ -1,10 +1,4 @@
-# globals
-
-{% hint style="info" %}
-Workspace for entities
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `entities.get_peds`
 

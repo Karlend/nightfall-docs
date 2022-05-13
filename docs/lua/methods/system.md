@@ -1,10 +1,4 @@
-# system
-
-{% hint style="info" %}
-Workspace for system
-{% endhint %}
-
-### Functions
+## Functions
 
 ### `system.yield`
 
