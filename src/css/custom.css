@@ -62,6 +62,7 @@ table {
   text-indent: initial;
   border-spacing: 2px;
   display: inline-table;
+  width: -webkit-fill-available;
 }
 
 table th {
