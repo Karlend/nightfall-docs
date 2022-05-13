@@ -61,6 +61,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // Application ID provided by Algolia
+        appId: "MW3QFB27F1",
+        // Public API key
+        apiKey: "e9daf610e748516bcfa5300b93510648",
+        indexName: "nightfall",
+      },
     }),
 };
 
