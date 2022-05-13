@@ -1,3 +1,6 @@
-# Welcome
+---
+slug: /
+title: Welcome
+---
 
-## Oh yeah
+# Welcome

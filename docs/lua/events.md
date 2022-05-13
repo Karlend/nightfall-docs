@@ -1,3 +1,8 @@
+---
+slug: /lua/events
+title: Events
+---
+
 # Events
 
 {% hint style="info" %}
