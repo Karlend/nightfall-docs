@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'My Site',
+  title: 'NightFall docs',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.nightfall.menu',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
