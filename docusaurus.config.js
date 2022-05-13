@@ -43,6 +43,15 @@ const config = {
           customCss: [
             require.resolve("./src/css/custom.scss"),
           ],
+          additionalLanguages: [
+            'java',
+            'kotlin',
+            'objectivec',
+            'swift',
+            'groovy',
+            'ruby',
+            'flow',
+          ],
         },
       }),
     ],
