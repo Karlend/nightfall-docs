@@ -14,18 +14,6 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "karlend", // Usually your GitHub org/user name.
   projectName: "nightfall-docs", // Usually your repo name.
-
-  webpack: {
-    jsLoader: isServer => ({
-      loader: require.resolve('esbuild-loader'),
-      options: {
-        loader: 'tsx',
-        format: isServer ? 'cjs' : undefined,
-        target: isServer ? 'node12' : 'es2017',
-      },
-    }),
-  },
-
   presets: [
     [
       "classic",
@@ -44,13 +32,8 @@ const config = {
             require.resolve("./src/css/custom.css"),
           ],
           additionalLanguages: [
-            'java',
-            'kotlin',
-            'objectivec',
-            'swift',
-            'groovy',
-            'ruby',
-            'flow',
+            'lua',
+            'ebnf'
           ],
         },
       }),

@@ -79,3 +79,18 @@ Returned values:
 #### Methods:
 
 * `online.send_script_event(int pid, int event_id, ints... args)`
+
+### `online.send_sms`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Player index | int    |
+| Text         | string |
+| Send as      | int    |
+
+#### Methods:
+
+* `online.send_sms(int pid, string Text)`
+* `online.send_sms(int pid, string Text, int send_as)`
