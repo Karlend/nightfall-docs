@@ -15,6 +15,17 @@ const config = {
   organizationName: "karlend", // Usually your GitHub org/user name.
   projectName: "nightfall-docs", // Usually your repo name.
 
+  webpack: {
+    jsLoader: isServer => ({
+      loader: require.resolve('esbuild-loader'),
+      options: {
+        loader: 'tsx',
+        format: isServer ? 'cjs' : undefined,
+        target: isServer ? 'node12' : 'es2017',
+      },
+    }),
+  },
+
   presets: [
     [
       "classic",
