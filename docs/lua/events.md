@@ -59,6 +59,8 @@ InvalidSyncBuffer = 6
 InvalidSyncFlag = 7
 InvalidHeadBlend = 8
 InvalidSyncTree = 9
+InvalidInterior = 10
+InvalidParachute = 11
 ```
 
 ### `on_modder_detection`
@@ -87,4 +89,33 @@ SuperJump = 8
 Godmode = 9
 IllegalModel = 10
 DamageModifiers = 11
+NetworkKick = 12
 ```
+
+### `on_chat_message`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | pid  |
+| Is team      | bool |
+| Spoofed as   | pid  |
+
+#### Methods:
+
+* `function on_chat_message(int player_id, bool is_team, int spoofed_as = -1)`
+
+### `on_phone_message`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | pid  |
+| Is team      | bool |
+| Spoofed as   | pid  |
+
+#### Methods:
+
+* `function on_phone_message(int player_id, bool is_team, int spoofed_as = -1)`
