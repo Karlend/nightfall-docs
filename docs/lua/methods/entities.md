@@ -2,49 +2,51 @@
 
 ### `entities.get_peds`
 
-#### Returned values:
+#### **Returned values:**:
 
 | Name     | Type  |
 | -------- | ----- |
 | Ped list | table |
 
-#### Methods:
+#### **Methods:**
 
-* `entities.get_peds()`
+ ```lua
+entities.get_peds()
+````
 
 ### `entities.get_vehs`
 
-#### Returned values:
+#### **Returned values:**:
 
 | Name         | Type  |
 | ------------ | ----- |
 | Vehicle list | table |
 
-#### Methods:
+#### **Methods:**
 
 * `entities.get_vehs()`
 
 ### `entities.get_objects`
 
-#### Returned values:
+#### **Returned values:**:
 
 | Name        | Type  |
 | ----------- | ----- |
 | Object list | table |
 
-#### Methods:
+#### **Methods:**
 
 * `entities.get_objects()`
 
 ### `entities.get_pickups`
 
-#### Returned values:
+#### **Returned values:**:
 
 | Name        | Type  |
 | ----------- | ----- |
 | Pickup list | table |
 
-#### Methods:
+#### **Methods:**
 
 * `entities.get_pickups()`
 
@@ -61,7 +63,7 @@
 
 * `function(int handle)`
 
-#### Methods:
+#### **Methods:**
 
 * `entities.request_control(int handle, callback)`
 
@@ -73,6 +75,6 @@
 | ------ | ---- |
 | handle | int  |
 
-#### Methods:
+#### **Methods:**
 
 * `entities.delete(int handle)`

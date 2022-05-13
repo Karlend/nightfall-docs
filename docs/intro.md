@@ -3,4 +3,4 @@ slug: /
 title: Welcome
 ---
 
-# Welcome
+## Welcome to NightFall documentation
