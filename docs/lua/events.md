@@ -119,3 +119,20 @@ NetworkKick = 12
 #### Methods:
 
 * `function on_phone_message(int player_id, bool is_team, int spoofed_as = -1)`
+
+### `on_geoip`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Player index | pid    |
+| IP           | string |
+| Country      | string |
+| City         | string |
+| ISP          | string |
+| Using VPN    | bool   |
+
+#### Methods:
+
+* `function on_geoip(int player_id, string ip, string country, string city, string isp, bool using_vpn)`
