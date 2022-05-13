@@ -52,12 +52,12 @@ const config = {
         items: [
           {
             href: "https://nightfall.menu/",
-            position: "Left",
+            position: "left",
             label: "Site",
           },
           {
             href: "https://nightfall.menu/login/",
-            position: "Left",
+            position: "left",
             label: "Login",
           },
         ],
