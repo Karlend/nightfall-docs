@@ -59,10 +59,9 @@
 }
 
 table {
-  width: 100%;
   text-indent: initial;
   border-spacing: 2px;
-  display: inline;
+  display: inline-table;
 }
 
 table th {
