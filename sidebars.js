@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['events'],
+    Docusaurus: ['docs/lua/events', 'docs/lua/methods'],
     Features: [],
   },
 };
