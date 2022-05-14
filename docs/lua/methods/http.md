@@ -2,7 +2,7 @@
 
 ### `http.get`
 
-#### **Returned values:**:
+#### **Returned values:**
 
 | Name       | Type     |
 | ---------- | -------- |
@@ -19,7 +19,7 @@
 
 ### `http.post`
 
-#### **Returned values:**:
+#### **Returned values:**
 
 | Name        | Type        |
 | ----------- | ----------- |
