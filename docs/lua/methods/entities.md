@@ -10,9 +10,7 @@
 
 #### **Methods:**
 
- ```lua
-entities.get_peds()
-````
+* `entities.get_peds()`
 
 ### `entities.get_vehs`
 
