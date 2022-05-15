@@ -28,7 +28,7 @@ Returned values:
 
 #### Methods:
 
-* `online.get_name(int pid)`
+* `online.get_name(int player_index)`
 
 ### `online.get_rockstar_id`
 
@@ -46,7 +46,7 @@ Returned values:
 
 #### Methods:
 
-* `online.get_rockstar_id(int pid)`
+* `online.get_rockstar_id(int player_index)`
 
 ### `online.get_ip`
 
@@ -64,7 +64,7 @@ Returned values:
 
 #### Methods:
 
-* `online.get_ip(int pid)`
+* `online.get_ip(int player_index)`
 
 ### `online.is_host`
 
@@ -82,7 +82,7 @@ Returned values:
 
 #### Methods:
 
-* `online.is_host(int pid)`
+* `online.is_host(int player_index)`
 
 ### `online.migrate_script_host`
 
@@ -115,7 +115,7 @@ Returned values:
 
 #### Methods:
 
-* `online.send_script_event(int pid, int event_id, ints... args)`
+* `online.send_script_event(int player_index, int event_id, ints... args)`
 
 ### `online.send_sms`
 
@@ -129,8 +129,8 @@ Returned values:
 
 #### Methods:
 
-* `online.send_sms(int pid, string text)`
-* `online.send_sms(int pid, string text, int send_as)`
+* `online.send_sms(int player_index, string text)`
+* `online.send_sms(int player_index, string text, int send_as)`
 
 ### `online.send_chat`
 

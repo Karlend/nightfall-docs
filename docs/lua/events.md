@@ -11,11 +11,11 @@ title: Events
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 
 #### Methods:
 
-* `function on_player_join(pid)`
+* `function on_player_join(int player_index)`
 
 ### `on_player_leave`
 
@@ -23,11 +23,11 @@ title: Events
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 
 #### Methods:
 
-* `function on_player_leave(pid)`
+* `function on_player_leave(int player_index)`
 
 ### `on_session_join`
 
@@ -41,12 +41,12 @@ title: Events
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 | Action ID    | Int  |
 
 #### Methods:
 
-* `function on_crash_attempt(int player_id, int action_id)`
+* `function on_crash_attempt(int player_index, int action_id)`
 
 ```ebnf
 InvalidState = 0
@@ -69,12 +69,12 @@ InvalidParachute = 11
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 | Action ID    | Int  |
 
 #### Methods:
 
-* `function on_modder_detection(int player_id, int action_id)`
+* `function on_modder_detection(int player_index, int action_id)`
 
 ```ebnf
 NameSpoof = 0
@@ -98,13 +98,13 @@ NetworkKick = 12
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 | Is team      | bool |
-| Spoofed as   | pid  |
+| Spoofed as   | int  |
 
 #### Methods:
 
-* `function on_chat_message(int player_id, bool is_team, int spoofed_as = -1)`
+* `function on_chat_message(int player_index, bool is_team, int spoofed_as = -1)`
 
 ### `on_phone_message`
 
@@ -112,13 +112,13 @@ NetworkKick = 12
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
+| Player index | int  |
 | Is team      | bool |
-| Spoofed as   | pid  |
+| Spoofed as   | int  |
 
 #### Methods:
 
-* `function on_phone_message(int player_id, bool is_team, int spoofed_as = -1)`
+* `function on_phone_message(int player_index, bool is_team, int spoofed_as = -1)`
 
 ### `on_geoip`
 
@@ -126,7 +126,7 @@ NetworkKick = 12
 
 | Name         | Type   |
 | ------------ | ------ |
-| Player index | pid    |
+| Player index | int    |
 | IP           | string |
 | Country      | string |
 | City         | string |
@@ -135,7 +135,7 @@ NetworkKick = 12
 
 #### Methods:
 
-* `function on_geoip(int player_id, string ip, string country, string city, string isp, bool using_vpn)`
+* `function on_geoip(int player_index, string ip, string country, string city, string isp, bool using_vpn)`
 
 ### `on_votekick`
 
@@ -143,12 +143,12 @@ NetworkKick = 12
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
-| Target index | pid  |
+| Player index | int  |
+| Target index | int  |
 
 #### Methods:
 
-* `function on_votekick(int player_id, int target_id)`
+* `function on_votekick(int player_index, int target_id)`
 
 ### `on_kick`
 
@@ -156,12 +156,12 @@ NetworkKick = 12
 
 | Name         | Type |
 | ------------ | ---- |
-| Player index | pid  |
-| Target index | pid  |
+| Player index | int  |
+| Target index | int  |
 
 #### Methods:
 
-* `function on_kick(int player_id, int target_id)`
+* `function on_kick(int player_index, int target_id)`
 
 ### `on_report`
 
@@ -169,12 +169,12 @@ NetworkKick = 12
 
 | Name         | Type   |
 | ------------ | ------ |
-| Player index | pid    |
+| Player index | int    |
 | Reason       | string |
 
 #### Methods:
 
-* `function on_report(int player_id, strin reason)`
+* `function on_report(int player_index, strin reason)`
 
 ### `on_script_host_migration`
 
@@ -183,9 +183,9 @@ NetworkKick = 12
 | Name         | Type   |
 | ------------ | ------ |
 | Script name  | string |
-| Player index | pid    |
+| Player index | int    |
 | Migration id | int    |
 
 #### Methods:
 
-* `function on_script_host_migration(string script, int player_id, int migration_id)`
+* `function on_script_host_migration(string script, int player_index, int migration_id)`
