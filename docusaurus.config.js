@@ -57,12 +57,17 @@ const config = {
           {
             href: "https://nightfall.menu/",
             position: "left",
-            label: "Site",
+            label: "🖥️",
           },
           {
             href: "https://nightfall.menu/login/",
             position: "left",
-            label: "Login",
+            label: "🔑",
+          },
+          {
+            href: "https://github.com/Karlend/nightfall-docs",
+            position: "right",
+            label: "🤖",
           },
         ],
       },
