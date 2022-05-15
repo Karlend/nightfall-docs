@@ -88,7 +88,6 @@
 | Y       | number  |
 | Z       | number  |
 | Coords  | vector3 |
-| Heading | number  |
 
 #### **Returned values:**:
 
@@ -98,8 +97,8 @@
 
 #### **Methods:**
 
-* `entities.create_vehicle(int hash, number x, number y, number z, number heading)`
-* `entities.create_vehicle(int hash, vector3 coords, number heading)`
+* `entities.create_vehicle(int hash, number x, number y, number z)`
+* `entities.create_vehicle(int hash, vector3 coords)`
 
 ### `entities.create_object`
 
@@ -112,7 +111,6 @@
 | Y       | number  |
 | Z       | number  |
 | Coords  | vector3 |
-| Heading | number  |
 
 #### **Returned values:**:
 
@@ -122,8 +120,8 @@
 
 #### **Methods:**
 
-* `entities.create_object(int hash, number x, number y, number z, number heading)`
-* `entities.create_object(int hash, vector3 coords, number heading)`
+* `entities.create_object(int hash, number x, number y, number z)`
+* `entities.create_object(int hash, vector3 coords)`
 
 ### `entities.create_ped`
 
@@ -136,7 +134,6 @@
 | Y       | number  |
 | Z       | number  |
 | Coords  | vector3 |
-| Heading | number  |
 
 #### **Returned values:**:
 
@@ -146,5 +143,5 @@
 
 #### **Methods:**
 
-* `entities.create_ped(int hash, number x, number y, number z, number heading)`
-* `entities.create_ped(int hash, vector3 coords, number heading)`
+* `entities.create_ped(int hash, number x, number y, number z)`
+* `entities.create_ped(int hash, vector3 coords)`
