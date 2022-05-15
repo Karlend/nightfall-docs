@@ -92,5 +92,21 @@ Returned values:
 
 #### Methods:
 
-* `online.send_sms(int pid, string Text)`
-* `online.send_sms(int pid, string Text, int send_as)`
+* `online.send_sms(int pid, string text)`
+* `online.send_sms(int pid, string text, int send_as)`
+
+### `online.send_chat`
+
+#### Parameters:
+
+| Name    | Type   |
+| ------- | ------ |
+| Text    | string |
+| Is team | bool   |
+| Send as | int    |
+
+#### Methods:
+
+* `online.send_chat(string text, bool is_team, int send_as)`
+* `online.send_chat(string text, bool is_team)`
+* `online.send_chat(string text)`
