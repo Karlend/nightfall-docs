@@ -76,3 +76,75 @@
 #### **Methods:**
 
 * `entities.delete(int handle)`
+
+### `entities.create_vehicle`
+
+#### Parameters:
+
+| Name    | Type    |
+| ------- | ------- |
+| Hash    | int     |
+| X       | number  |
+| Y       | number  |
+| Z       | number  |
+| Coords  | vector3 |
+| Heading | number  |
+
+#### **Returned values:**:
+
+| Name   | Type |
+| ------ | ---- |
+| Handle | int  |
+
+#### **Methods:**
+
+* `entities.create_vehicle(int hash, number x, number y, number z, number heading)`
+* `entities.create_vehicle(int hash, vector3 coords, number heading)`
+
+### `entities.create_object`
+
+#### Parameters:
+
+| Name    | Type    |
+| ------- | ------- |
+| Hash    | int     |
+| X       | number  |
+| Y       | number  |
+| Z       | number  |
+| Coords  | vector3 |
+| Heading | number  |
+
+#### **Returned values:**:
+
+| Name   | Type |
+| ------ | ---- |
+| Handle | int  |
+
+#### **Methods:**
+
+* `entities.create_object(int hash, number x, number y, number z, number heading)`
+* `entities.create_object(int hash, vector3 coords, number heading)`
+
+### `entities.create_ped`
+
+#### Parameters:
+
+| Name    | Type    |
+| ------- | ------- |
+| Hash    | int     |
+| X       | number  |
+| Y       | number  |
+| Z       | number  |
+| Coords  | vector3 |
+| Heading | number  |
+
+#### **Returned values:**:
+
+| Name   | Type |
+| ------ | ---- |
+| Handle | int  |
+
+#### **Methods:**
+
+* `entities.create_ped(int hash, number x, number y, number z, number heading)`
+* `entities.create_ped(int hash, vector3 coords, number heading)`
