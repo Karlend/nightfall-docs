@@ -136,3 +136,56 @@ NetworkKick = 12
 #### Methods:
 
 * `function on_geoip(int player_id, string ip, string country, string city, string isp, bool using_vpn)`
+
+### `on_votekick`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | pid  |
+| Target index | pid  |
+
+#### Methods:
+
+* `function on_votekick(int player_id, int target_id)`
+
+### `on_kick`
+
+#### Parameters:
+
+| Name         | Type |
+| ------------ | ---- |
+| Player index | pid  |
+| Target index | pid  |
+
+#### Methods:
+
+* `function on_kick(int player_id, int target_id)`
+
+### `on_report`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Player index | pid    |
+| Reason       | string |
+
+#### Methods:
+
+* `function on_report(int player_id, strin reason)`
+
+### `on_script_host_migration`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Script name  | string |
+| Player index | pid    |
+| Migration id | int    |
+
+#### Methods:
+
+* `function on_script_host_migration(string script, int player_id, int migration_id)`
