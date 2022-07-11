@@ -96,11 +96,29 @@
 
 | Name  | Type   |
 | ----- | ------ |
-| Value | number |
+| Value | float  |
 
 #### Methods:
 
 * `memory.read_float(int size)`
+
+### `memory.read_vector3`
+
+#### Parameters:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Returned values:
+
+| Name  | Type    |
+| ----- | ------  |
+| Value | vector3 |
+
+#### Methods:
+
+* `memory.read_vector3(int size)`
 
 ### `memory.write_byte`
 
@@ -189,3 +207,77 @@
 #### Methods:
 
 * `memory.is_valid_memory(int pointer)`
+
+### `memory.add`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Pointer            | int    |
+| offset             | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Methods:
+
+* `memory.add(int pointer, int offset)`
+
+### `memory.sub`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Pointer            | int    |
+| offset             | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Methods:
+
+* `memory.sub(int pointer, int offset)`
+
+### `memory.rip`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Pointer            | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Methods:
+
+* `memory.add(int pointer, int offset)`
+
+### `memory.get_call`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Pointer            | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Methods:
+
+* `memory.get_call(int pointer)`

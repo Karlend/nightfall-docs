@@ -36,10 +36,11 @@
 | Red   | int    |
 | Green | int    |
 | Blue  | int    |
+| Alpha | int    |
 
 #### Methods:
 
-* `system.notify(string prefix, string text)`
+* `system.notify(string title, string text, int red, int green, int blue, int alpha)`
 
 ### `system.execute_as_script`
 
