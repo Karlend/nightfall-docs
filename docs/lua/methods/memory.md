@@ -172,6 +172,37 @@
 
 * `memory.write_float(int pointer, number value)`
 
+### `memory.read_short`
+
+#### Parameters:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Returned values:
+
+| Name  | Type |
+| ----- | ---- |
+| Value | int  |
+
+#### Methods:
+
+* `memory.read_short(int size)`
+
+### `memory.write_short`
+
+#### Parameters:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+| Value   | int  |
+
+#### Methods:
+
+* `memory.write_short(int pointer, int value)`
+
 ### `memory.find_pattern`
 
 #### Parameters:
@@ -281,3 +312,39 @@
 #### Methods:
 
 * `memory.get_call(int pointer)`
+
+### `memory.handle_to_pointer`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Entity handle      | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Pointer | int  |
+
+#### Methods:
+
+* `memory.handle_to_pointer(int EntityHandle)`
+
+### `memory.pointer_to_handle`
+
+#### Parameters:
+
+| Name               | Type   |
+| ------------------ | ------ |
+| Pointer            | int    |
+
+#### Returned values:
+
+| Name          | Type   |
+| -------       | ----   |
+| Entity handle | int    |
+
+#### Methods:
+
+* `memory.pointer_to_handle(int pointer)`

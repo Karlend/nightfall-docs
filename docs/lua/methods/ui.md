@@ -493,3 +493,22 @@
 #### Methods:
 
 * `ui.hide(int option_id, bool value) `
+
+### `ui.is_sub_open`
+ 
+#### Parameters:
+
+| Name             | Type   |
+| ---------------- | ------ |
+| sub\_id          | int    |
+
+#### Returned values:
+
+| Name    | Type |
+| ------- | ---- |
+| Is open | bool |
+
+#### Methods:
+
+* `ui.is_sub_open() `
+

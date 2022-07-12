@@ -58,3 +58,52 @@
 #### Methods:
 
 * `system.execute_as_script(string script_name, function callback)`
+
+### `system.is_safe_mode_enabled`
+ 
+#### Returned values:
+
+| Name       | Type |
+| -------    | ---- |
+| Is enabled | bool |
+
+#### Methods:
+
+* `system.is_safe_mode_enabled() `
+
+### `system.to_clipboard`
+ 
+#### Parameters:
+
+| Name      | Type   |
+| ----------| ------ |
+| text      | string |
+
+#### Methods:
+
+* `system.to_clipboard(string text) `
+
+### `system.from_clipboard`
+ 
+#### Returned values:
+
+| Name      | Type   |
+| ----------| ------ |
+| text      | string |
+
+#### Methods:
+
+* `system.from_clipboard() `
+
+### `system.play_wav(string: path)`
+ 
+#### Parameters:
+
+| Name      | Type   |
+| --------- | ------ |
+| path      | string |
+
+#### Methods:
+
+* `system.play_wav(string path) `
+

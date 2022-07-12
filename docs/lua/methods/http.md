@@ -37,3 +37,16 @@
 #### **Methods:**
 
 * `http.post(string url, string post_fields, function onSuccess = nill, function onFailure = nill, table header = {})`
+
+### `http.is_enabled`
+ 
+#### Returned values:
+
+| Name       | Type |
+| -------    | ---- |
+| Is enabled | bool |
+
+#### Methods:
+
+* `http.is_enabled() `
+
