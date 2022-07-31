@@ -189,3 +189,30 @@ NetworkKick = 12
 #### Methods:
 
 * `function on_script_host_migration(string script, int player_index, int migration_id)`
+
+### `on_script_event`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Player index | int    |
+| Event ID     | int    |
+| Args         | table  |
+
+#### Methods:
+
+* `function on_script_event(int player_index, int event_id, table args)`
+
+### `on_network_event`
+
+#### Parameters:
+
+| Name         | Type   |
+| ------------ | ------ |
+| Player index | int    |
+| Event ID     | int    |
+
+#### Methods:
+
+* `function on_network_event(int player_index, int event_id)`

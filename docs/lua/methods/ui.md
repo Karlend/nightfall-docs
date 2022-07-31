@@ -203,12 +203,12 @@
 | name                 | string   |
 | sub\_id              | int      |
 | apply\_on\_selection | bool     |
-| elemets              | table    |
+| colors               | table    |
 | callback             | function |
 
 #### Callbacks:
 
-* `function(int r, int g, int b, int a)`
+* `function(table colors)`
 
 #### Returned values:
 
